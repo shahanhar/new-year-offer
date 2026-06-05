@@ -16,7 +16,14 @@
     "wdth" 100;
 }
 
+/* body styles */
+/* body header, main{
+    margin-right: 200px;
+} */
 /* header styles */
+header{
+    /* margin-left: -50px; */
+}
 .banner{
     background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url("../images/Banner\ Image.png");
     width: 1320px;
@@ -52,7 +59,9 @@
 }
 
 /* main styles */
-
+main{
+    margin-left: -100px;
+}
 .text-center{
     text-align: center;
 }
@@ -227,4 +236,38 @@ section h3{
 .release-image{
     margin-left: 140px;
     /* margin-top: 43px; */
+}
+
+/* holidays styles */
+.holidays{
+    margin: 120px 440px;
+}
+.holiday-text{
+    font-weight: 500;
+    font-size: 24px;
+    color: #070211;
+}
+.holiday-tittle{
+    font-weight: 900;
+    font-size: 72px;
+    color: #070211;
+}
+.holi{
+    color: #FF0000;
+}
+.holiday-description{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin: 28px 200px;
+}
+.holiday-images{
+    display: flex;
+    align-items: center;
+    /* margin: 64px; */
+    margin-left: -44px;
+    margin-top: 62px;
+}
+.gift-image{
+    margin-right: 177px;
 }
